@@ -1,0 +1,20 @@
+version: 2
+application_id: '9999'
+name: My awesome app.
+description: Some description.
+tool_configurations:
+  identity_access_management:
+    - spec:
+        scopes:
+          - name: scope1
+            displayName: scope1
+            description: POST /scopes/v1
+          - name: scope2
+            displayName: scope2
+            description: POST /scopes2/v1
+          - name: scope3
+            displayName: scope3
+            description: POST /scopes3/v1
+          - name: scope4
+            displayName: scope4
+            description: POST /scopes4/v1
